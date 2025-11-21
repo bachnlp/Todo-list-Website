@@ -2,11 +2,11 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "/api_index.php"
     }
   ],
   "functions": {
-    "api/index.php": {
+    "api_index.php": {
       "runtime": "vercel-php@0.7.4"
     }
   }
